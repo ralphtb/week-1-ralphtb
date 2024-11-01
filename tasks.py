@@ -1,5 +1,3 @@
-print("hello world")
-
 import numpy
 
 # Follow the tasks below to practice basic Python concepts.
