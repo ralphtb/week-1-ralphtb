@@ -1,3 +1,5 @@
+print("hello world")
+
 import numpy
 
 # Follow the tasks below to practice basic Python concepts.
@@ -13,7 +15,8 @@ import numpy
 # Your code here:
 # -----------------------------------------------
 
-def step
+def step(x):
+    return 1 if x > 0 else -1
 
 
 # -----------------------------------------------
@@ -28,8 +31,8 @@ def step
 
 # Your code here:
 # -----------------------------------------------
-def ReLu
-
+def ReLu(arr, cutoff=0):
+    return numpy.maximum(arr, cutoff)
 
 # -----------------------------------------------
 
@@ -44,7 +47,10 @@ def ReLu
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer
+def neural_net_layer(matrix, vector):
+    result = numpy.dot(matrix, vector)
+    return ReLu(result)
 
+clip < ~/.ssh/id_ed25519.pub
 
 # ------------------------------------------
