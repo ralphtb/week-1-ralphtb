@@ -1,5 +1,5 @@
 import numpy as np
-from tasks import step, ReLu, neural_net_layer
+from tasks import step, ReLU, neural_net_layer
 
 def test_neural_net_layer_basic():
     inputs = np.array([[1, 2], [3, 4]])
