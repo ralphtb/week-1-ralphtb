@@ -29,7 +29,7 @@ def step(x):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu(arr, cutoff=0):
+def ReLU(arr, cutoff=0):
     return numpy.maximum(arr, cutoff)
 
 # -----------------------------------------------
