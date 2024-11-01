@@ -51,6 +51,6 @@ def neural_net_layer(matrix, vector):
     result = numpy.dot(matrix, vector)
     return ReLu(result)
 
-clip < ~/.ssh/id_ed25519.pub
+
 
 # ------------------------------------------
