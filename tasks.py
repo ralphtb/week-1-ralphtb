@@ -16,6 +16,8 @@ import numpy as np
 def step(x):
     return 1 if x > 0 else -1
 
+step(4)
+
 
 # -----------------------------------------------
 
