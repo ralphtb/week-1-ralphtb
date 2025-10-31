@@ -10,13 +10,12 @@ import numpy as np
 #If the number is larger than zero, the function should return 1, otherwise is should return -1.
 #The name of the function should be step
 
-# Your code here:
-# -----------------------------------------------
+
 
 def step(x):
     return 1 if x > 0 else -1
 
-step(4)
+step(x=4)
 
 
 # -----------------------------------------------
